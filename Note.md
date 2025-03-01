@@ -4,15 +4,15 @@
 
 **1. 循环条件：`while left < right` vs `while left <= right`**
 
-- **`while left < right`：**
-  - 适用于**左闭右开**区间，即区间包含左端点但不包含右端点。
-  - 在每次迭代中，`right` 被更新为 `mid`，因此 `right` 不会被重复访问。
-  - 例如，查找第一个大于等于目标值的位置时，使用 `while left < right`，并在循环内将 `right` 更新为 `mid`。
-
 - **`while left <= right`：**
   - 适用于**左闭右闭**区间，即区间包含左右端点。
   - 在每次迭代中，`right` 被更新为 `mid - 1`，确保不会重复访问。
   - 例如，查找目标值的位置时，使用 `while left <= right`，并在循环内将 `right` 更新为 `mid - 1`。
+  
+- **`while left < right`：**
+  - 适用于**左闭右开**区间，即区间包含左端点但不包含右端点。
+  - 在每次迭代中，`right` 被更新为 `mid`，因此 `right` 不会被重复访问。
+  - 例如，查找第一个大于等于目标值的位置时，使用 `while left < right`，并在循环内将 `right` 更新为 `mid`。
 
 **2. 更新 `left` 和 `right` 时，`mid` 的计算方式**
 
