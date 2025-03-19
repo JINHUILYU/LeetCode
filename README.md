@@ -7,3 +7,4 @@
 - [图解算法数据结构](https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/)
 - [面试经典 150 题](https://leetcode.cn/studyplan/top-interview-150/)
 - [CodeTop](https://codetop.cc/home)
+- [LeetCode 101: A Grinding Guide (Second Edition)](https://github.com/changgyhub/leetcode_101)
